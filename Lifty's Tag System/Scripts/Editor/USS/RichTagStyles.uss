@@ -1,0 +1,31 @@
+.rich-tag {
+    min-width: 20px;
+    height: 20px;
+    border-radius: 8px;
+    
+    padding: 5px;
+    margin: 5px;
+    
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.rich-tag > #TagPreviewText {
+    -unity-text-align: middle-right;
+}
+
+.rich-tag > #TagPreviewIcon {
+    height: 10px;
+    width: 10px;
+    
+    flex-grow: 0;
+    margin-right: 5px;
+}
+
+.rich-tag-list {
+    background-color: #2d2d2d;
+    border-width: 1px;
+    border-color: #111111;
+    padding: 5px;
+}

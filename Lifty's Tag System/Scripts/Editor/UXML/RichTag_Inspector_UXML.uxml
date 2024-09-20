@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/Lifty&apos;s%20Tag%20System/Scripts/Editor/USS/RichTagStyles.uss?fileID=7433441132597879392&amp;guid=36aab17da8950e64abfe41652ba8018c&amp;type=3#RichTagStyles" />
+    <uie:PropertyField label="Icon" binding-path="tagIcon" name="TagIcon" class="unity-base-field__aligned" />
+    <ui:TextField label="Name" binding-path="tagName" name="TagName" class="unity-base-field__aligned" />
+    <uie:ColorField label="Color" value="#FFFFFFFF" binding-path="tagColor" name="TagColor" class="unity-base-field__aligned" />
+    <uie:ColorField label="Name Color" value="#FFFFFFFF" binding-path="tagNameColor" name="TagNameColor" class="unity-base-field__aligned" />
+    <ui:VisualElement name="Barrier" style="flex-grow: 0; margin-bottom: 30px; flex-shrink: 0;" />
+    <ui:Label text="Preview" name="PreviewLabel" style="margin-bottom: 10px;" />
+</ui:UXML>

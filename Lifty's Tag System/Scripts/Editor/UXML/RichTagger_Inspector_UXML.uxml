@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/Lifty&apos;s%20Tag%20System/Scripts/Editor/USS/RichTagStyles.uss?fileID=7433441132597879392&amp;guid=36aab17da8950e64abfe41652ba8018c&amp;type=3#RichTagStyles" />
+    <ui:VisualElement name="Root" style="flex-grow: 1; background-color: rgba(75, 75, 75, 0.95); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; margin-top: 25px; margin-bottom: 25px;">
+        <ui:Label text="---Tagger---" name="Label" class="unity-base-field__alinged" style="margin-top: 0; margin-right: 0; margin-bottom: 5px; margin-left: 0; background-color: rgba(41, 41, 41, 0.84); color: rgb(217, 217, 217); padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; -unity-text-align: upper-center;" />
+        <ui:Label text="Add Tag" name="AddTagLabel" class="unity-base-field__alinged" style="margin-top: 8px;" />
+        <uie:ToolbarSearchField name="SearchField" style="margin-bottom: 5px;" />
+        <ui:ScrollView name="SearchList" horizontal-scroller-visibility="Hidden" class="rich-tag-list" style="max-height: 100px; display: none;">
+            <ui:VisualElement name="SearchListGrid" style="flex-grow: 0; flex-direction: row; flex-wrap: wrap;" />
+        </ui:ScrollView>
+        <ui:VisualElement name="Barrier" style="flex-grow: 0; margin-bottom: 10px;" />
+        <ui:Label text="Tags" name="TagsLabel" class="unity-base-field__alinged" style="margin-top: 8px;" />
+        <ui:VisualElement name="TagsGrid" style="flex-grow: 0; flex-direction: row; flex-wrap: wrap;" />
+    </ui:VisualElement>
+</ui:UXML>
